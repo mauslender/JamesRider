@@ -8,6 +8,7 @@ public class StartPage extends BasePage {
 
     @FindBy(id = "com.hdw.james.rider:id/getStartedButton")
     private WebElement getStartedButton;
+
     public StartPage(AppiumDriver driver) {
         super(driver);
     }
