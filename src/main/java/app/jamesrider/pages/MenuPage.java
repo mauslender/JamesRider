@@ -33,8 +33,6 @@ public class MenuPage extends BasePage {
     public void clickOnSignOut() {
         WaitUtils.waitForElementPresence(driver, signOutLocator, 5);
 
-//        String signOutSelector = String.format("new UiSelector().className(\"android.view.ViewGroup\").instance(8)");
-//        WebElement signOutElement = driver.findElement(AppiumBy.androidUIAutomator(signOutSelector));
         // Click on current profile name
         driver.findElement(signOutLocator).click();
     }
