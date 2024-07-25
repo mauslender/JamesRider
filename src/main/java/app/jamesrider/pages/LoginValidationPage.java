@@ -6,7 +6,7 @@ import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class LoginValidationPage extends BasePage{
+public class LoginValidationPage extends BasePage {
 
     private By validationTitleLocation = By.id("com.hdw.james.rider:id/title");
     private By validationFirstNumberLocator = new AppiumBy.ByAndroidUIAutomator("new UiSelector().resourceId(\"com.hdw.james.rider:id/inputEditText\").instance(0)");

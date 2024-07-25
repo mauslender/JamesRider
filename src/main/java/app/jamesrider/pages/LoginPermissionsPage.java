@@ -4,7 +4,7 @@ import app.jamesrider.utils.WaitUtils;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
-public class LoginPermissionsPage extends BasePage{
+public class LoginPermissionsPage extends BasePage {
 
     private By locationPermissionButtonLocator = By.id("com.hdw.james.rider:id/permissionsLocationButton");
     private By locationConfirmationPermissionButtonLocator = By.id("com.android.permissioncontroller:id/permission_allow_foreground_only_button");
